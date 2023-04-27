@@ -13,7 +13,7 @@ namespace CodProgrammy
                 sum += number % 10;
                 number /= 10;
             }
-            return number;
+            return sum;
         }
         static void Main(string[] args) //Главный метод программы
         {
