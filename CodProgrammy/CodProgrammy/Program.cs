@@ -32,7 +32,7 @@ namespace CodProgrammy
                 }
             }
             Console.WriteLine($"Число с наибольшей суммой цифр: {maxNumber}, сумма цифр: {maxSum}");
-            Console.ReadLine(); //Чтобы окно консоли не закрылось сразу
+            Console.ReadKey(); //Чтобы окно консоли не закрылось сразу
         }
     }
 }
