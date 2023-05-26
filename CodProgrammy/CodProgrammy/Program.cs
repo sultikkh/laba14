@@ -23,7 +23,7 @@ namespace CodProgrammy
             for (int i = 0; i < n; i++)
             {
                 Console.Write("Введите натуральное число : ");
-                int number = int.Parse(Console.ReadLine()); //Ввод числа
+                int number = int.Parse(Console.ReadLine()); //В4вод числа
                 int sumOfDigits = SumOfDigits(number); //Вычисление суммы цифр числа
                 if (sumOfDigits > maxSum) //Проверка на максимальность суммы цифр
                 {
